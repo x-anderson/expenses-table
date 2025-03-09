@@ -1,0 +1,40 @@
+.expenses-table-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 24px 48px 48px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  overflow-y: auto;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.expenses-table {
+  width: 100%;
+  border-spacing: 0;
+  font-size: 0.8rem;
+}
+
+.expenses-table th,
+td {
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 0.5px;
+  padding: 4px;
+}
+
+.expenses-table th {
+  background-color: #ededed;
+  text-align: left;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.cell-capitalize {
+  text-transform: capitalize;
+}
+
+.error-message {
+  color: red;
+}
